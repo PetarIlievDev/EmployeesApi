@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RunSettings>
+	<DataCollectionRunSettings>
+		<DataCollectors>
+			<DataCollector friendlyName="XPlat code coverage">
+				<Configuration>
+					<Format>cobertura,opencover</Format>
+					<Exclude>
+					[EmployeesApi*]*Program*,
+					[*tests?]*
+					</Exclude>
+				</Configuration>
+			</DataCollector>
+		</DataCollectors>
+	</DataCollectionRunSettings>
+</RunSettings>

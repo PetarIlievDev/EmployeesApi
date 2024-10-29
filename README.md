@@ -1,8 +1,10 @@
 # About EmployeesApi
 The Web API was created for testing purposes. It consist of .Net WebApi.
 
-## How to build
+## How to build and run
 * [Install](https://dotnet.microsoft.com/en-us/download#/current) the latest .NET 8.0 SDK to run the WebApi
+* Intall ProstgreSQL and create Database "taurex_assessment_task"
+* Run the application
 
 ## Testing
 Crypto has 2 types of tests:
